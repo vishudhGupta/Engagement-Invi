@@ -112,7 +112,7 @@
     animation:shimmer 6s linear infinite;padding:0 .15em}
   .names .amp{display:block;font-size:clamp(40px,8vw,64px);color:var(--gold);margin:-6px 0}
   .hero .tagline{font-family:var(--serif);font-size:clamp(20px,4vw,28px);letter-spacing:.08em}
-  .hero .tagline b{color:var(--maroon);font-weight:700}
+  .hero .tagline b{display:block;margin-top:4px;white-space:nowrap;color:var(--maroon);font-weight:700;font-size:1.3em;letter-spacing:.1em}
   .date-pill{margin-top:28px;display:inline-flex;align-items:center;gap:14px;padding:12px 26px;border-radius:999px;
     border:1.5px solid var(--gold);background:rgba(255,255,255,.6);backdrop-filter:blur(4px);
     font-family:var(--serif);font-size:clamp(15px,3.5vw,20px);font-weight:600;color:var(--maroon);flex-wrap:wrap;justify-content:center;max-width:100%}
@@ -243,6 +243,7 @@
     .cards{grid-template-columns:1fr;max-width:420px;margin-left:auto;margin-right:auto}
     .map{aspect-ratio:4/3}
     .hd-left{top:16%}
+    .date-pill{gap:8px 10px;padding:10px 16px}
   }
   @media (prefers-reduced-motion:reduce){
     *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
